@@ -17,6 +17,7 @@
 		FA1C319D27E9A36D00640ED9 /* TapBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C319C27E9A36D00640ED9 /* TapBarViewController.swift */; };
 		FA1C319F27E9A38C00640ED9 /* ContactListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C319E27E9A38C00640ED9 /* ContactListTableViewController.swift */; };
 		FA1C31A127E9A39F00640ED9 /* ExtendedContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C31A027E9A39F00640ED9 /* ExtendedContactsTableViewController.swift */; };
+		FA217B6527EA32AC00F01EB6 /* MoreInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA217B6427EA32AB00F01EB6 /* MoreInformationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		FA1C319C27E9A36D00640ED9 /* TapBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarViewController.swift; sourceTree = "<group>"; };
 		FA1C319E27E9A38C00640ED9 /* ContactListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTableViewController.swift; sourceTree = "<group>"; };
 		FA1C31A027E9A39F00640ED9 /* ExtendedContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedContactsTableViewController.swift; sourceTree = "<group>"; };
+		FA217B6427EA32AB00F01EB6 /* MoreInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInformationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				FA1C319C27E9A36D00640ED9 /* TapBarViewController.swift */,
 				FA1C319E27E9A38C00640ED9 /* ContactListTableViewController.swift */,
 				FA1C31A027E9A39F00640ED9 /* ExtendedContactsTableViewController.swift */,
+				FA217B6427EA32AB00F01EB6 /* MoreInformationViewController.swift */,
 				FA0B207427E99F5800937FDB /* Person.swift */,
 				FA0B206627E99F3900937FDB /* Main.storyboard */,
 				FA0B206927E99F3A00937FDB /* Assets.xcassets */,
@@ -156,6 +159,7 @@
 				FA1C31A127E9A39F00640ED9 /* ExtendedContactsTableViewController.swift in Sources */,
 				FA0B207527E99F5800937FDB /* Person.swift in Sources */,
 				FA0B206327E99F3900937FDB /* SceneDelegate.swift in Sources */,
+				FA217B6527EA32AC00F01EB6 /* MoreInformationViewController.swift in Sources */,
 				FA1C319D27E9A36D00640ED9 /* TapBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

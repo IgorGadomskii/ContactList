@@ -13,35 +13,44 @@ class ExtendedContactsTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+        persons.count
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        2
     }
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        let person = persons[section]
+        let sectionName = person.fullname
+        
+        return sectionName
+    }
+    
 
-    /*
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "contactsFullnameCell", for: indexPath)
 
-        // Configure the cell...
+        var content = cell.defaultContentConfiguration()
+        let person = persons[indexPath.section]
+        
+        if indexPath.row == 0 {
+            content.text = person.email
+        } else if indexPath.row == 1 {
+            content.text = person.phoneNumber
+        }
+        
+        cell.contentConfiguration = content
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
